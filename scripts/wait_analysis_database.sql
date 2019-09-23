@@ -1,0 +1,1 @@
+select event, state, count(*) from v$session_wait group by event, state order by 3 desc;
